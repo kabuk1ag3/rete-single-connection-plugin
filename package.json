@@ -1,0 +1,23 @@
+{
+  "name": "rete-single-connection-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/rete-single-connection-plugin.common.js",
+  "module": "build/rete-single-connection-plugin.esm.js",
+  "private": true,
+  "scripts": {
+    "build": "rete --build rete.config.js",
+    "build:dev": "rete --build rete.config.js --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "kabuk1ag3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kabuk1ag3/rete-single-connection-plugin.git"
+  },
+  "devDependencies": {
+    "rete-cli": "^0.5.0"
+  }
+}
