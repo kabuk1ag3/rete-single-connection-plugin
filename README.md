@@ -1,7 +1,7 @@
 # Rete single connection plugin
 
 Rete.js plugin<br><br>
-This plugin prevent multiple socket connections.<br><br>
+This plugin prevents multiple socket connections.<br><br>
 このプラグインはソケットの複数接続を防ぎます。
 
 ```js
